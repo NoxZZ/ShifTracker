@@ -5,12 +5,16 @@ body{
     position:relative;
 }
 
+div{
+    width: 200px;
+    margin:0 auto;
+}
+
 .button:link{
 background-color:white;
 border-color: rgb(161, 127, 255);
 border: 2px;
-border-bottom:outset;
-  color:black;
+color:lightseagreen;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -26,7 +30,7 @@ border-bottom:outset;
 }
     
 .button:hover{
-    background-color: lightseagreen;
+    background-color: cornflowerblue;
       border-color:rgb(155, 127, 255);
       color:black;
       border-style: groove;
